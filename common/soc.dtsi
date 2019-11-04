@@ -1,3 +1,9 @@
+&soc {
+	restart@4ab000 {
+		qcom,force-warm-reboot;
+	};
+};
+
 &thermal_zones {
 	/delete-node/ pa-therm1-adc;
 };
