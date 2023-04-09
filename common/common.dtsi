@@ -1,4 +1,4 @@
-#include "android.dtsi"
+//#include "android.dtsi"
 #include "audio.dtsi"
 #include "display.dtsi"
 #include "delete-unused-peripherals.dtsi"
