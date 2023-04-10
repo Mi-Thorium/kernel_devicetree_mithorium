@@ -11,9 +11,6 @@
 		qcom,op-seq = "flash_en";
 		qcom,torch-seq-val = <1 0>;
 		qcom,flash-seq-val = <0 1>;
-		qcom,max-current = <1000>;
-		qcom,duration = <1280>;
-		qcom,current = <625>;
 		linux,name = "flashlight-front";
 		linux,default-trigger = "F_flashlight-trigger";
 	};
