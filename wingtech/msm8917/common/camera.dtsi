@@ -5,8 +5,8 @@
 		status = "okay";
 		pinctrl-names = "flash_default";
 		pinctrl-0 = <&SGM3780_default>;
-		qcom,flash-en = <93>;
-		qcom,flash-now = <90>;
+		qcom,flash-en = <&tlmm 93 0>;
+		qcom,flash-now = <&tlmm 90 0>;
 		qcom,op-seq = "flash_en", "flash_now";
 		qcom,torch-seq-val = <1 0>;
 		qcom,flash-seq-val = <0 1>;
