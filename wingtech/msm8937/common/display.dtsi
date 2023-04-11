@@ -20,10 +20,12 @@
 	};
 };
 
+/*
 &labibb {
 	status = "ok";
 	qpnp,qpnp-labibb-mode = "lcd";
 };
+*/
 
 &lab_regulator {
 	/delete-property/ qcom,qpnp-ibb-use-default-voltage;
@@ -34,8 +36,10 @@
 };
 
 &mdss_dsi0 {
+/*
 	lab-supply = <&lab_regulator>;
 	ibb-supply = <&ibb_regulator>;
+*/
 
 	pinctrl-names = "mdss_default", "mdss_sleep";
 	pinctrl-0 = <&mdss_dsi_active &mdss_te_active>;
