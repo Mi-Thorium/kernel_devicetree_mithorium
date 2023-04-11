@@ -12,3 +12,5 @@
 &sdhc_1 {
 	qcom,vdd-always-on;
 };
+
+#include "msm8937-land-camera.dtsi"
