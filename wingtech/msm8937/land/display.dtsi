@@ -31,3 +31,7 @@
 	qcom,dsi-pref-sub-pan = <&dsi_nt35521s_ebbg_720_video>;
 	qcom,dsi-pref-sub1-pan = <&dsi_ili9881c_tianma_720p_video>;
 };
+
+&mdss_fb0 {
+	/delete-node/ qcom,cont-splash-memory;
+};
