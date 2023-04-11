@@ -6,6 +6,7 @@
 };
 
 &int_codec {
+	status = "disabled";
 	/delete-property/ asoc-wsa-codec-names;
 	/delete-property/ asoc-wsa-codec-prefixes;
 	/delete-property/ msm-vdd-wsa-switch-supply;
