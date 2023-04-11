@@ -14,3 +14,4 @@
 };
 
 #include "msm8937-land-camera.dtsi"
+#include "msm8937-land-regulator.dtsi"
