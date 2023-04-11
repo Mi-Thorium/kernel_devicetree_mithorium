@@ -8,3 +8,7 @@
 #include "pmi8950.dtsi"
 #include "soc.dtsi"
 #include "touchscreen.dtsi"
+
+&sdhc_1 {
+	qcom,vdd-always-on;
+};

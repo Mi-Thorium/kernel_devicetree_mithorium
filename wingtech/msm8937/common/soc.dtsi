@@ -18,4 +18,8 @@
 		reg = <0xa41d0 0x4>;
 		reg-names = "sec-boot-base";
 	};
+
+	qcom,wdt@b017000 {
+		qcom,bark-time = <0x3a98>;
+	};
 };

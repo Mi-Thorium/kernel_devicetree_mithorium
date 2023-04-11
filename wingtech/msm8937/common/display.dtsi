@@ -21,8 +21,7 @@
 };
 
 &labibb {
-	status = "ok";
-	qpnp,qpnp-labibb-mode = "lcd";
+	status = "disabled";
 };
 
 &lab_regulator {
@@ -34,13 +33,6 @@
 };
 
 &mdss_dsi0 {
-	lab-supply = <&lab_regulator>;
-	ibb-supply = <&ibb_regulator>;
-
-	pinctrl-names = "mdss_default", "mdss_sleep";
-	pinctrl-0 = <&mdss_dsi_active &mdss_te_active>;
-	pinctrl-1 = <&mdss_dsi_suspend &mdss_te_suspend>;
-
 	qcom,dsi-pref-prim-pan = <&dsi_hx8394f_boe_720_vid>;
 };
 

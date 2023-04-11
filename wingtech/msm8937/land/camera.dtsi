@@ -13,7 +13,7 @@
  */
 
 &led_flash0 {
-	qcom,flash-source = <&pmi8950_flash0 &pmi8950_flash1>;
+	qcom,flash-source = <&pmi8950_flash0>;
 };
 
 &cci {
