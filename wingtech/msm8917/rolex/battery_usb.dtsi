@@ -8,6 +8,7 @@
 		interrupt-parent = <&tlmm>;
 		interrupts = <86 8>;
 		cw2015,irq-gpio=<86>;
+			qcom,battery-data = <&qrd_batterydata>;
 	};
 
 	smb358_otg_vreg: smb358-charger@57 {
@@ -50,6 +51,7 @@
 
 		qcom,battery-fcc = <3030>;
 		status = "ok";
+			qcom,battery-data = <&qrd_batterydata>;
 	};
 };
 &qrd_batterydata {
