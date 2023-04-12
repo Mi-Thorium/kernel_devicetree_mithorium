@@ -1,0 +1,5 @@
+&pm8937_vadc {
+	chan@11 {
+		/delete-property/ qcom,vadc-thermal-node;
+	};
+};

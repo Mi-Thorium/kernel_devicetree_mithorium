@@ -3,5 +3,6 @@
 #include "delete-unused-peripherals.dtsi"
 #include "display.dtsi"
 #include "led.dtsi"
+#include "pm8937.dtsi"
 #include "ramoops.dtsi"
 #include "soc.dtsi"
