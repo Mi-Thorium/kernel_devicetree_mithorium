@@ -15,6 +15,7 @@ MSM_CDC_PINCTRL_PA_GPIO_SINGLE_PIN(spk, gpio93)
 	qcom,msm-spk-ext-pa = <&tlmm 93 0>;
 	qcom,msm-switch-headphone-en = <&tlmm 94 0>;
 	qcom,msm-switch-headphone-in = <&tlmm 95 0>;
+	qcom,use-legacy-voice-cpu-dais;
 #endif
 };
 
