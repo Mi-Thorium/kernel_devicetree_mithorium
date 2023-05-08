@@ -2,8 +2,8 @@
 &ramoops {
 	/delete-property/ pmsg-size;
 	reg = <0x0 0x91400000 0x0 0x00100000>;
-	record-size = <0x80000>;
-	console-size = <0x80000>;
+	record-size = <0x50000>;
+	console-size = <0x50000>;
 };
 &adsp_fw_mem {
 	reg = <0x0 0x8B400000 0x0 0x1100000>;
