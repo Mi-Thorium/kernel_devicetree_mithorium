@@ -31,7 +31,14 @@
 		"ADC3_IN", "ADC3_OUT",
 		"PDM_IN_RX1", "PDM_OUT_RX1",
 		"PDM_IN_RX2", "PDM_OUT_RX2",
-		"PDM_IN_RX3", "PDM_OUT_RX3";
+		"PDM_IN_RX3", "PDM_OUT_RX3"
+#ifdef MI8937_V2
+		,
+		"HPH PA GPIO Switch", "HPHL PA",
+		"HPH PA GPIO Switch", "HPHR PA",
+		"SPK PA GPIO Switch", "HPHL PA"
+#endif
+		;
 };
 
 /* Custom */
