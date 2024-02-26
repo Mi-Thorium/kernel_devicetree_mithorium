@@ -1,3 +1,5 @@
+dtb-y += santoni.dtb
+
 dtb-$(CONFIG_MACH_XIAOMI_LAND) += land.dtb
 dtb-$(CONFIG_MACH_XIAOMI_PRADA) += prada.dtb
 dtb-$(CONFIG_MACH_XIAOMI_RIVA_OREO) += riva-oreo.dtb
