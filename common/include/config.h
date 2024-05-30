@@ -1,6 +1,8 @@
 #ifndef _DTS_MI8937_CONFIG_H
 #define _DTS_MI8937_CONFIG_H
 
+#define MI8937_V2
+
 #ifdef CONFIG_MACH_XIAOMI_MSM8937 // This option only exist in Mi8937v2 kernel
 #define MI8937_V2
 #endif // CONFIG_MACH_XIAOMI_MSM8937=y
